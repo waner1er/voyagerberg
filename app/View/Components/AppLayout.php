@@ -7,16 +7,16 @@ use TCG\Voyager\Models\Post;
 
 class AppLayout extends Component
 {
-    public Post $post;
-    /**
-     * Create a new component instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->post = Post::first();
-    }
+//    public Post $post;
+//    /**
+//     * Create a new component instance.
+//     *
+//     * @return void
+//     */
+//    public function __construct()
+//    {
+//        $this->post = Post::first();
+//    }
 
     /**
      * Get the view / contents that represent the component.
